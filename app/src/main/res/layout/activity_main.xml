@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    android:scrollbarSize="28dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/operacion"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:text="0"
+        android:textColor="#FBFBFB"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:text="0"
+        android:textColor="#FBFBFB"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+
+                android:id="@+id/eliminar"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:text="◀"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp"
+                android:visibility="visible"
+                tools:ignore="DuplicateIds" />
+
+            <Button
+                android:id="@+id/raiz"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#6352ad"
+                android:text="COS"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/tangente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#6352ad"
+                android:text="TAN"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+
+                android:id="@+id/porcentaje"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:text="%"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp"
+                android:visibility="visible"
+                tools:ignore="DuplicateIds" />
+
+            <Button
+                android:id="@+id/coseno"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#6352ad"
+                android:text="COS"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/tangent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#6352ad"
+                android:text="TAN"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/siete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#ad96f9"
+                android:text="7"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/ocho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#ad96f9"
+                android:text="8"
+                android:textColor="#EBEBF3"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/nueve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#ad96f9"
+                android:text="9"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/estilo">
+
+            <Button
+                android:id="@+id/diez"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#ad96f9"
+                android:text="4"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/cinco"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#ad96f9"
+                android:text="5"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/seis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#ad96f9"
+                android:text="6"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/porcentaje"
+            android:layout_width="398dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/uno"
+                android:onClick="uno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#ad96f9"
+                android:text="1"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/dos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#ad96f9"
+                android:text="2"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/tres"
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#ad96f9"
+                android:text="3"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/suma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#6352ad"
+                android:text="+"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/cero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#ad96f9"
+                android:shadowColor="#692715"
+                android:text="0"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/resta"
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#6352ad"
+                android:text="-"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/multiplicar"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#6352ad"
+                android:text="✖"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/dividir"
+                android:layout_width="161dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#6352ad"
+                android:text="➗"
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/igual"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo"
+                android:backgroundTint="#6352ad"
+                android:text="="
+                android:textColor="#FBFBFB"
+                android:textSize="34sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </TableLayout>
+
+    <Button
+        android:id="@+id/limpiar"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:background="@drawable/estilo"
+        android:backgroundTint="#6352ad"
+        android:text="🗑"
+        android:textColor="#FBFBFB"
+        android:textSize="34sp" />
+
+</LinearLayout>
